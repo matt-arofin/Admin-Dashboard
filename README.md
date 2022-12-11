@@ -5,4 +5,5 @@ This project aims to build a functional, interactive admin dashboard containing 
 Dependencies include:
 
 - Material UI
+- Formik
 -
