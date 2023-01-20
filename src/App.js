@@ -11,8 +11,8 @@ import Form from "./views/form";
 import Calendar from "./views/calendar";
 import FAQ from "./views/faq";
 import Bar from "./views/bar";
+import Pie from "./views/pie";
 // import Line from "./views/line";
-// import Pie from "./views/pie";
 // import Geography from "./views/geography";
 
 function App() {
@@ -35,8 +35,8 @@ function App() {
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/bar" element={<Bar />} />
+              <Route path="/pie" element={<Pie />} />
               {/* <Route path="/line" element={<Line />} /> */}
-              {/* <Route path="/pie" element={<Pie />} /> */}
               {/* <Route path="/geography" element={<Geography />} /> */}
             </Routes>
           </main>
