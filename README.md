@@ -4,6 +4,6 @@ This project aims to build a functional, interactive admin dashboard containing 
 
 Dependencies include:
 
-- Material UI
-- Formik
-- Fullcalendar
+- Material UI (used for styled elements)
+- Formik (used for forms)
+- Fullcalendar (used for calendar feature)
