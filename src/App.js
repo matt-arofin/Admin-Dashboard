@@ -13,7 +13,7 @@ import FAQ from "./views/faq";
 import Bar from "./views/bar";
 import Pie from "./views/pie";
 import Line from "./views/line";
-// import Geography from "./views/geography";
+import Geography from "./views/geography";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -37,7 +37,7 @@ function App() {
               <Route path="/bar" element={<Bar />} />
               <Route path="/pie" element={<Pie />} />
               <Route path="/line" element={<Line />} />
-              {/* <Route path="/geography" element={<Geography />} /> */}
+              <Route path="/geography" element={<Geography />} />
             </Routes>
           </main>
         </div>
